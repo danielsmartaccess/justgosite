@@ -1,0 +1,169 @@
+header{
+    height: 300px;
+    background: no-repeat center/cover url("/images/punta.png");
+}
+body{
+    margin: 0;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.titulocards{
+    text-align: center;
+    margin-top: 30px;
+    background: rgb(233, 231, 231);
+    padding: 15px
+}
+header ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+header li{
+    margin: 0 15px;  
+    color: rgb(255, 255, 255); 
+    text-shadow: 2px 10px 15px black;
+
+}
+
+.textheader a{
+    text-decoration: none;
+    margin: 0 15px;  
+    color: rgb(223, 234, 242); 
+    text-shadow: 2px 1px 15px black;
+    
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+
+header nav p{
+    font-weight: bold;
+    text-shadow: 2px 1px 10px black;
+    color: rgb(245, 251, 255);
+    font-size: 18px;
+}
+.boxinbox{
+
+    max-width: 400px;
+    margin: auto auto;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 5px 15px rgb(227, 227, 227);
+    
+}
+
+.boxinbox h1{
+
+    margin-bottom: 10px;
+    color: rgb(245, 251, 255);
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 5px 10px black;
+}
+.pacotes{
+    height: 300px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    position: relative;
+    background: 0;
+}
+
+.card1 h1{
+    font-size: 12px;
+    border-radius: 25px 4px;
+    background: #88b8d0;
+}
+
+.card{
+    font-size: 10px;
+    width: 180px;
+    height: 160px;
+    background: rgb(233, 231, 231);
+    border-radius: 25px 4px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    
+}
+
+.imagecard{
+
+    width: 180px;
+    height: 160px;
+    border-radius: 15px 4px;
+
+}
+
+.pacotes .card ul {
+    flex-direction: column;
+    display: flex;
+    padding-left: 10px;
+    background: rgb(233, 231, 231);
+    border-radius: 25px 4px;
+
+}
+
+.pacotes .card ul li{
+font-size: 0.6rem;
+display: flex;
+align-items: center ;
+margin: 3px 0px;
+
+
+}
+
+.pacotes .card li svg{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+
+}
+.servicostitulo{
+
+    text-align: center;
+    margin-top: 50px;
+    background: rgb(233, 231, 231);
+    padding: 15px
+    
+    
+}
+.servicos{
+
+    display: flex;
+    padding: 10px;
+}
+
+
+.cardservicos{
+    font-size: 12px;
+    width: 220px;
+    height: 230px;
+    background: rgb(233, 231, 231);
+    border-radius: 20px 20px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+
+
+}
+
+.botao2{
+    background: hsl(200, 43%, 67%);
+    padding: 10px 10px;
+    border-radius: 10px 10px;
+    border: 0;
+    margin-top: 25px;   
+    color:white;
+    cursor:pointer;
+    text-shadow: none;
+    
+}
+

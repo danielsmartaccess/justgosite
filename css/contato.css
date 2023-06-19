@@ -1,0 +1,163 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+body{
+        min-width: 100vh;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        background: rgb(1, 116, 197);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+.whatsapp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 50px;
+    right: 50px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp{
+    margin-top: 16px;}
+
+.box{
+    width: 80%;
+    background: rgb(224, 227, 225);
+    border-radius: 10px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px black;
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.box .box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.box .box1 .esquerda{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+    
+}
+
+.box1 .esquerda::before{
+    content:"" ;
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top:50%;
+    transform: translateY(-50%);
+    background: rgb(11, 87, 141);
+}
+
+.box1 .esquerda .detalhes{
+    margin: 14px;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+.box1 .esquerda .detalhes i{
+    font-size: 35px;
+    color:rgb(1, 16, 157);
+    margin-bottom: 10px;
+}
+
+.box1 .esquerda .detalhes .texto1,
+.box1 .esquerda .detalhes .texto2{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.box .box1 .direita{
+    width: 75%;
+    margin-left: 75px;
+
+}
+
+.box1 .direita .botao{
+    font-size: 23px;
+    font-weight: 600;
+    color:rgb(57, 52, 52);
+    text-align: center;
+    padding: 15px;
+    
+}
+.direita .inputbox input,
+.direita .inputbox textarea{
+height: 100%;
+width: 100%;
+margin-top: 20px;
+border: none;
+outline: none;
+font-size: 16px;
+background: white;
+border-radius: 9px;
+padding: 0 15px;
+resize: none;
+}
+
+#cidade{
+margin: 20px 33%;
+background: rgb(132, 177, 216);
+border-radius: 0 12px;
+width: 35%;
+}
+.botao1{
+
+    margin: 0 33%;
+    margin-top: 20px;
+
+}
+.botao2 {
+    padding: 10px 60px;
+    border-radius: 9px 9px;
+
+}
+
+#voltar{
+
+    margin-left:  40px;
+
+}
+#voltar a{
+    text-decoration: none;
+    color:aliceblue
+}
+
+
+
+
+
+
+

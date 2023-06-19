@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/contato.css">
+    <script src="https://unpkg.com/feather-icons"></script>  
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <a class='whatsapp' href="https://web.whatsapp.com/send?phone=5551980141766" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+
+    <div class="box">
+        <div class="box1">
+            <div class="esquerda">
+                <div class="detalhes"><a href="https://senacrs.com.br/unidade/63">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <div class="topico">Endereço</div>
+                    <div class="texto1">Cel. Genuíno, 130 </div>
+                    <div class="texto2">Centro Histórico, POA</div>
+                    </a>
+                </div>
+            
+                <div class="detalhes"><a href="https://web.whatsapp.com/send?phone=5551980141766">
+                    <i class="fa fa-phone-square" aria-hidden="true"></i>
+                    <div class="topico">Telefone</div>
+                    <div class="texto1">+5551980141766 </div>
+                    <div class="texto2">+5551980141766</div>
+                </a>
+                </div>
+
+                <div class="detalhes"><a href="mailto:gvurde@gmail.com">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div class="topico">E-mail</div>
+                    <div class="texto1">gvurdel@gmail.com</div>
+                    <div class="texto2">vurdel@icloud.com</div>
+                </a>
+                </div>
+            </div>
+            <div class="direita">
+                <div class="botao">Projeto Viagens Gustavo!</div>
+                <p>Se você estiver com alguma dúvida sobre nossos pacotes, pode enviar sua mensagem aqui. É sempre um prazer ajudá-lo!</p>
+
+                <form method="post">
+
+                    <div class="inputbox">            
+                        <input maxlength="40" minlength="5" id="nome" type="text" name="nome" required placeholder="Nome Completo">
+                    </div>
+
+                    <div class="inputbox">
+                        <input id="email" type="email" name="email" class="input-padrao" required placeholder="email@dominio.com">
+                    </div>
+
+                    <div class = inputbox>
+                        <select name="cidade" id="cidade" required>
+                            <option value="">Escolha seu Pacote!</option>
+                            <optgroup label="Pacotes">
+                                <option>Cabo Polônio</option>
+                                <option>Colonia</option>
+                                <option>La Paloma</option>
+                                <option>Montevideo</option>
+                                <option>Museu Casapueblo</option>
+                                <option>Piriápolis</option>
+                                <option>Punta Del Leste</option>
+                                <option>Punta Del Diablo</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="inputbox message">
+                        <textarea cols="21" rows="5" id="mensagem" class="input-padrao" required></textarea>
+                    </div>
+
+                    <div class="botao1">
+                        <input class="botao2" type="submit" name="enviar">
+                    </div>
+
+        </div>
+    </div>
+    </div>
+    
+    <div id="voltar"><a href="index.html">Voltar ao Site</a></div>
+
+    <script>
+        feather.replace()
+    </script>
+    
+</body>
+</html>
