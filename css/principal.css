@@ -5,7 +5,10 @@ box-sizing: border-box;
 body{
     margin: 0;
     width: 100vw;
-    font-family: 'Museo Sans', sans-serif;
+    font-family: museo-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+
 }
 
 .whatsapp{
