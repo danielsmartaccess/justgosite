@@ -14,7 +14,7 @@ if (isset($_POST['acessar'])) {
     <form action="" method="post">
         <fieldset>
             <legend>Painel de Login</legend>
-            <input type="email" name="email" placeholder="Informa seu E-mail" required>
+            <input type="email" name="email" placeholder="E-mail" required>
 
             <input type="password" name="senha" placeholder="Senha" require>
 
