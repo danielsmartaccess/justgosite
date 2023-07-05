@@ -298,3 +298,21 @@ color: black;
     font-size: 13px;
     
 }
+
+.img_just_go1{
+    margin-left: 500px;
+}
+
+.conteudo1 {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.conteudo1 p {
+    margin-bottom: 20px;
+}
