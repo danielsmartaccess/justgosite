@@ -33,7 +33,7 @@ body{
     text-align: center;
     margin-top: 30px;
     background: #00AEEF;
-    padding: 15px
+    padding: 15px;
 }
 header ul{
     list-style: none;
@@ -101,7 +101,7 @@ header{
     border-radius: 8px;
     font-weight: bold;
     border: 0;
-    
+    margin-left: 150px;
 }
 
 .botao1 a{
