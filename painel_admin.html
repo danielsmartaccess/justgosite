@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo</title>
+    <link rel="stylesheet" href="css/painel_admin.css">
+</head>
+<body>
+
+<header>
+    <h1>Painel Administrativo</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Usuários</a></li>
+            <li><a href="#">Configurações</a></li>
+            <li><a href="#">Sair</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Visão geral</h2>
+        <p>Bem-vindo ao painel administrativo!</p>
+    </section>
+
+    <section>
+        <h2>Usuários</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <!-- Outros registros de usuários aqui -->
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Configurações</h2>
+        <form>
+            <label for="site-name">Nome do Site:</label>
+            <input type="text" id="site-name" name="site-name" value="Meu Site">
+
+            <label for="site-description">Descrição:</label>
+            <textarea id="site-description" name="site-description">Bem-vindo ao meu site!</textarea>
+
+            <button>Salvar</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2023. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
