@@ -199,13 +199,18 @@
         
     }
     .servicos{
-    
+        display: flex;
+        padding: 10px;
+    }
+
+    .produtos{
+
         display: flex;
         padding: 10px;
     }
     
     
-    .cardservicos{
+    .cardprodutos{
         font-size: 12px;
         width: 220px;
         height: 230px;
@@ -215,8 +220,6 @@
         text-align: center;
         position: relative;
         padding-top: 15px;
-    
-    
     }
     
     .botao2{
