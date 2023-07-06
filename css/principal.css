@@ -331,3 +331,53 @@ color: black;
 .conteudo1 p {
     margin-bottom: 20px;
 }
+
+
+.carrossel {
+    margin: 50px auto;
+    width: 500px;
+    height: 350px; 
+    overflow: hidden;
+    outline: 3px solid rgb(11, 87, 141);
+    box-shadow: rgb(0, 0, 0, 0.7);
+}
+
+.carrossel ul{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.carrossel li{
+    position: relative;
+    animation: slide 15s infinite ease-out;
+    /*left: -500px;*/
+}
+
+.carrossel img{
+    width: 500px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-500px);
+    }
+    40% {
+        transform: translateX(-1000px);
+    }
+    60% {
+        transform: translateX(-1500px);
+    }
+    80% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(-2500px);
+    }
+}
