@@ -146,15 +146,21 @@ width: 35%;
 }
 
 #voltar{
-
-    margin-left:  40px;
-
+    margin-left: 40px;
+    background: white;
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
 }
 #voltar a{
     text-decoration: none;
-    color:aliceblue
+    color:black;
 }
 
+#produto{
+    margin-top: 3px;
+}
 
 
 

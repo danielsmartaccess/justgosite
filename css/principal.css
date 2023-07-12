@@ -32,8 +32,8 @@ body{
 .titulocards{
     text-align: center;
     margin-top: 30px;
-    background: rgb(233, 231, 231);
-    padding: 15px
+    background: #00AEEF;
+    padding: 15px;
 }
 header ul{
     list-style: none;
@@ -101,7 +101,7 @@ header{
     border-radius: 8px;
     font-weight: bold;
     border: 0;
-    
+    margin-left: 150px;
 }
 
 .botao1 a{
@@ -116,7 +116,7 @@ color: black;
     list-style: none;
     display: flex;
     position: relative;
-    background:;
+
 }
 
 .card1 h1{
@@ -204,6 +204,11 @@ margin: 3px 0px;
     padding: 10px;
 }
 
+.produtos{
+
+    display: flex;
+    padding: 10px;
+}
 
 .cardservicos{
     font-size: 12px;
@@ -215,8 +220,18 @@ margin: 3px 0px;
     text-align: center;
     position: relative;
     padding-top: 15px;
+}
 
-
+.cardprodutos{
+    font-size: 12px;
+    width: 220px;
+    height: 230px;
+    background: rgb(194, 216, 208);
+    border-radius: 20px 20px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
 }
 
 .botao2{
@@ -297,4 +312,72 @@ color: black;
 .copyright{
     font-size: 13px;
     
+}
+
+.img_just_go1{
+    margin-left: 500px;
+}
+
+.conteudo1 {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.conteudo1 p {
+    margin-bottom: 20px;
+}
+
+
+.carrossel {
+    margin: 50px auto;
+    width: 500px;
+    height: 350px; 
+    overflow: hidden;
+    outline: 3px solid rgb(11, 87, 141);
+    box-shadow: rgb(0, 0, 0, 0.7);
+}
+
+.carrossel ul{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.carrossel li{
+    position: relative;
+    animation: slide 15s infinite ease-out;
+    /*left: -500px;*/
+}
+
+.carrossel img{
+    width: 500px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-500px);
+    }
+    40% {
+        transform: translateX(-1000px);
+    }
+    60% {
+        transform: translateX(-1500px);
+    }
+    80% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(-2500px);
+    }
 }
